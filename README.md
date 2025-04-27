@@ -107,3 +107,6 @@ This project is available for personal and commercial use.
 - Fonts: Google Fonts (Montserrat, Poppins)
 - Icons: Font Awesome
 - Design Inspiration: Miami Vice theme and modern luxury car rental websites 
+
+## Author
+Developed by Jeremy Martinez-Quinones.

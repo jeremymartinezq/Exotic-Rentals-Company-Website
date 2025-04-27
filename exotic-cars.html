@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore our collection of exotic cars for rent in Miami. Ferrari, Lamborghini, Rolls Royce, McLaren and more.">
+    <title>Exotic Cars | Exotic Rides Miami</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <span style="color: white; font-weight: bold; font-size: 24px;">Exotic Rides Miami</span>
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="exotic-cars.html" class="active">Exotic Cars</a></li>
+                <li><a href="sprinter-vans.html">Sprinter Vans</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="book-now.html" class="book-now-btn">Book Now</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <div class="page-banner">
+        <div class="overlay"></div>
+        <div class="banner-content">
+            <h1>Exotic <span class="highlight">Cars</span></h1>
+            <p>Experience the thrill of driving the world's most luxurious vehicles</p>
+        </div>
+    </div>
+
+    <section class="car-catalog">
+        <div class="container">
+            <div class="filters">
+                <h3>Filter By:</h3>
+                <div class="filter-options">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="supercar">Supercars</button>
+                    <button class="filter-btn" data-filter="luxury">Luxury</button>
+                    <button class="filter-btn" data-filter="convertible">Convertibles</button>
+                    <button class="filter-btn" data-filter="suv">SUVs</button>
+                </div>
+            </div>
+            
+            <div class="car-grid">
+                <!-- Supercars -->
+                <div class="car-card" data-category="supercar">
+                    <div class="car-image">
+                        <img src="assets/images/cars/ferrari-sf90.jpg" alt="Ferrari SF90">
+                        <div class="car-overlay">
+                            <a href="book-now.html?car=ferrari-sf90" class="book-btn">Book Now</a>
+                        </div>
+                    </div>
+                    <div class="car-details">
+                        <h3>Ferrari SF90 Stradale</h3>
+                        <p class="car-price">$2,499<span>/day</span></p>
+                        <div class="car-specs">
+                            <span><i class="fas fa-tachometer-alt"></i> 986 HP</span>
+                            <span><i class="fas fa-bolt"></i> 0-60: 2.5s</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="car-card" data-category="supercar">
+                    <div class="car-image">
+                        <img src="assets/images/cars/lamborghini-huracan.jpg" alt="Lamborghini Huracan EVO">
+                        <div class="car-overlay">
+                            <a href="book-now.html?car=lamborghini-huracan" class="book-btn">Book Now</a>
+                        </div>
+                    </div>
+                    <div class="car-details">
+                        <h3>Lamborghini Huracan EVO</h3>
+                        <p class="car-price">$1,999<span>/day</span></p>
+                        <div class="car-specs">
+                            <span><i class="fas fa-tachometer-alt"></i> 640 HP</span>
+                            <span><i class="fas fa-bolt"></i> 0-60: 2.9s</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="car-card" data-category="supercar">
+                    <div class="car-image">
+                        <img src="assets/images/cars/mclaren-720s.jpg" alt="McLaren 720S">
+                        <div class="car-overlay">
+                            <a href="book-now.html?car=mclaren-720s" class="book-btn">Book Now</a>
+                        </div>
+                    </div>
+                    <div class="car-details">
+                        <h3>McLaren 720S</h3>
+                        <p class="car-price">$1,899<span>/day</span></p>
+                        <div class="car-specs">
+                            <span><i class="fas fa-tachometer-alt"></i> 710 HP</span>
+                            <span><i class="fas fa-bolt"></i> 0-60: 2.8s</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="car-card" data-category="supercar">
+                    <div class="car-image">
+                        <img src="assets/images/cars/ferrari-f8.jpg" alt="Ferrari F8 Tributo">
+                        <div class="car-overlay">
+                            <a href="book-now.html?car=ferrari-f8" class="book-btn">Book Now</a>
+                        </div>
+                    </div>
+                    <div class="car-details">
+                        <h3>Ferrari F8 Tributo</h3>
+                        <p class="car-price">$1,899<span>/day</span></p>
+                        <div class="car-specs">
+                            <span><i class="fas fa-tachometer-alt"></i> 710 HP</span>
+                            <span><i class="fas fa-bolt"></i> 0-60: 2.9s</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Luxury Cars -->
+                <div class="car-card" data-category="luxury">
+                    <div class="car-image">
+                        <img src="assets/images/cars/rolls-royce-cullinan.jpg" alt="Rolls-Royce Cullinan">
+                        <div class="car-overlay">
+                            <a href="book-now.html?car=rolls-royce-cullinan" class="book-btn">Book Now</a>
+                        </div>
+                    </div>
+                    <div class="car-details">
+                        <h3>Rolls-Royce Cullinan</h3>
+                        <p class="car-price">$2,799<span>/day</span></p>
+                        <div class="car-specs">
+                            <span><i class="fas fa-tachometer-alt"></i> 563 HP</span>
+                            <span><i class="fas fa-bolt"></i> 0-60: 4.8s</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="car-card" data-category="luxury">
+                    <div class="car-image">
+                        <img src="assets/images/cars/bentley-continental.jpg" alt="Bentley Continental GT">
+                        <div class="car-overlay">
+                            <a href="book-now.html?car=bentley-continental" class="book-btn">Book Now</a>
+                        </div>
+                    </div>
+                    <div class="car-details">
+                        <h3>Bentley Continental GT</h3>
+                        <p class="car-price">$1,599<span>/day</span></p>
+                        <div class="car-specs">
+                            <span><i class="fas fa-tachometer-alt"></i> 626 HP</span>
+                            <span><i class="fas fa-bolt"></i> 0-60: 3.6s</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="car-card" data-category="luxury">
+                    <div class="car-image">
+                        <img src="assets/images/cars/mercedes-maybach.jpg" alt="Mercedes-Maybach S680">
+                        <div class="car-overlay">
+                            <a href="book-now.html?car=mercedes-maybach" class="book-btn">Book Now</a>
+                        </div>
+                    </div>
+                    <div class="car-details">
+                        <h3>Mercedes-Maybach S680</h3>
+                        <p class="car-price">$1,799<span>/day</span></p>
+                        <div class="car-specs">
+                            <span><i class="fas fa-tachometer-alt"></i> 621 HP</span>
+                            <span><i class="fas fa-bolt"></i> 0-60: 4.5s</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Convertibles -->
+                <div class="car-card" data-category="convertible supercar">
+                    <div class="car-image">
+                        <img src="assets/images/cars/lamborghini-aventador.jpg" alt="Lamborghini Aventador SVJ Roadster">
+                        <div class="car-overlay">
+                            <a href="book-now.html?car=lamborghini-aventador" class="book-btn">Book Now</a>
+                        </div>
+                    </div>
+                    <div class="car-details">
+                        <h3>Lamborghini Aventador SVJ Roadster</h3>
+                        <p class="car-price">$2,999<span>/day</span></p>
+                        <div class="car-specs">
+                            <span><i class="fas fa-tachometer-alt"></i> 770 HP</span>
+                            <span><i class="fas fa-bolt"></i> 0-60: 2.8s</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="car-card" data-category="convertible supercar">
+                    <div class="car-image">
+                        <img src="assets/images/cars/ferrari-portofino.jpg" alt="Ferrari Portofino M">
+                        <div class="car-overlay">
+                            <a href="book-now.html?car=ferrari-portofino" class="book-btn">Book Now</a>
+                        </div>
+                    </div>
+                    <div class="car-details">
+                        <h3>Ferrari Portofino M</h3>
+                        <p class="car-price">$1,699<span>/day</span></p>
+                        <div class="car-specs">
+                            <span><i class="fas fa-tachometer-alt"></i> 612 HP</span>
+                            <span><i class="fas fa-bolt"></i> 0-60: 3.4s</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- SUVs -->
+                <div class="car-card" data-category="suv luxury">
+                    <div class="car-image">
+                        <img src="assets/images/cars/lamborghini-urus.jpg" alt="Lamborghini Urus">
+                        <div class="car-overlay">
+                            <a href="book-now.html?car=lamborghini-urus" class="book-btn">Book Now</a>
+                        </div>
+                    </div>
+                    <div class="car-details">
+                        <h3>Lamborghini Urus</h3>
+                        <p class="car-price">$1,899<span>/day</span></p>
+                        <div class="car-specs">
+                            <span><i class="fas fa-tachometer-alt"></i> 650 HP</span>
+                            <span><i class="fas fa-bolt"></i> 0-60: 3.5s</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="car-card" data-category="suv luxury">
+                    <div class="car-image">
+                        <img src="assets/images/cars/bentley-bentayga.jpg" alt="Bentley Bentayga">
+                        <div class="car-overlay">
+                            <a href="book-now.html?car=bentley-bentayga" class="book-btn">Book Now</a>
+                        </div>
+                    </div>
+                    <div class="car-details">
+                        <h3>Bentley Bentayga</h3>
+                        <p class="car-price">$1,699<span>/day</span></p>
+                        <div class="car-specs">
+                            <span><i class="fas fa-tachometer-alt"></i> 626 HP</span>
+                            <span><i class="fas fa-bolt"></i> 0-60: 3.8s</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="cta-section">
+        <div class="overlay"></div>
+        <div class="cta-content">
+            <h2>Ready to <span class="highlight">Experience</span> Miami?</h2>
+            <p>Book your dream car today and make unforgettable memories</p>
+            <a href="book-now.html" class="cta-btn primary">Reserve Now</a>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="https://images.unsplash.com/photo-1606598296155-545898866ff7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=200&q=80" alt="Exotic Rides Miami Logo">
+                <p>Experience the ultimate luxury car rentals in Miami</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="exotic-cars.html">Exotic Cars</a></li>
+                        <li><a href="sprinter-vans.html">Sprinter Vans</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Collins Ave, Miami Beach, FL 33139</li>
+                        <li><i class="fas fa-phone"></i> +1 (305) 555-1234</li>
+                        <li><i class="fas fa-envelope"></i> info@exoticridesmiami.com</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Exotic Rides Miami. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        // Car catalog filter functionality
+        document.addEventListener('DOMContentLoaded', function() {
+            const filterBtns = document.querySelectorAll('.filter-btn');
+            const carCards = document.querySelectorAll('.car-card');
+            
+            filterBtns.forEach(btn => {
+                btn.addEventListener('click', function() {
+                    // Remove active class from all buttons
+                    filterBtns.forEach(btn => btn.classList.remove('active'));
+                    
+                    // Add active class to clicked button
+                    this.classList.add('active');
+                    
+                    // Get filter value
+                    const filter = this.getAttribute('data-filter');
+                    
+                    // Filter cars
+                    carCards.forEach(card => {
+                        if (filter === 'all') {
+                            card.style.display = 'block';
+                        } else {
+                            if (card.getAttribute('data-category').includes(filter)) {
+                                card.style.display = 'block';
+                            } else {
+                                card.style.display = 'none';
+                            }
+                        }
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+</html> 

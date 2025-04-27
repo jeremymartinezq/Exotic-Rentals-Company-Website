@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Miami's premier exotic car rental service. Rent luxury cars and sprinter vans in Miami, FL.">
+    <title>Exotic Rides Miami | Luxury Car Rentals</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="logo">
+                <a href="index.html">
+                    <span style="color: white; font-weight: bold; font-size: 24px;">Exotic Rides Miami</span>
+                </a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="exotic-cars.html">Exotic Cars</a></li>
+                <li><a href="sprinter-vans.html">Sprinter Vans</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="book-now.html" class="book-now-btn">Book Now</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero" style="position: relative; height: 100vh; overflow: hidden;">
+        <img src="assets\images\cars\miami-skyline.jpg" alt="Miami Skyline" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover; z-index: -2;">
+        <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.4); z-index: -1;"></div>
+        <div class="hero-content">
+            <h1>DRIVE <span class="highlight">EXOTIC</span><br>LIVE <span class="highlight">MIAMI</span></h1>
+            <p>Experience the ultimate luxury car rentals in Miami</p>
+            <a href="#featured-cars" class="cta-btn">Explore Fleet</a>
+            <a href="book-now.html" class="cta-btn primary">Rent Now</a>
+        </div>
+        <div class="scroll-down">
+            <span>SCROLL DOWN</span>
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <section id="featured-cars" class="featured-cars">
+        <div class="section-header">
+            <h2>Featured <span class="highlight">Exotic Cars</span></h2>
+            <p>Choose from our exclusive collection of the world's finest vehicles</p>
+        </div>
+        <div class="car-grid">
+            <div class="car-card">
+                <div class="car-image">
+                    <img src="assets/images/cars/ferrari-sf90.jpg" alt="Ferrari SF90">
+                    <div class="car-overlay">
+                        <a href="book-now.html?car=ferrari-sf90" class="book-btn">Book Now</a>
+                    </div>
+                </div>
+                <div class="car-details">
+                    <h3>Ferrari SF90 Stradale</h3>
+                    <p class="car-price">$2,499<span>/day</span></p>
+                    <div class="car-specs">
+                        <span><i class="fas fa-tachometer-alt"></i> 986 HP</span>
+                        <span><i class="fas fa-bolt"></i> 0-60: 2.5s</span>
+                    </div>
+                </div>
+            </div>
+            <div class="car-card">
+                <div class="car-image">
+                    <img src="assets/images/cars/lamborghini-huracan.jpg" alt="Lamborghini Huracan EVO">
+                    <div class="car-overlay">
+                        <a href="book-now.html?car=lamborghini-huracan" class="book-btn">Book Now</a>
+                    </div>
+                </div>
+                <div class="car-details">
+                    <h3>Lamborghini Huracan EVO</h3>
+                    <p class="car-price">$1,999<span>/day</span></p>
+                    <div class="car-specs">
+                        <span><i class="fas fa-tachometer-alt"></i> 640 HP</span>
+                        <span><i class="fas fa-bolt"></i> 0-60: 2.9s</span>
+                    </div>
+                </div>
+            </div>
+            <div class="car-card">
+                <div class="car-image">
+                    <img src="assets/images/cars/rolls-royce-cullinan.jpg" alt="Rolls-Royce Cullinan">
+                    <div class="car-overlay">
+                        <a href="book-now.html?car=rolls-royce-cullinan" class="book-btn">Book Now</a>
+                    </div>
+                </div>
+                <div class="car-details">
+                    <h3>Rolls-Royce Cullinan</h3>
+                    <p class="car-price">$2,799<span>/day</span></p>
+                    <div class="car-specs">
+                        <span><i class="fas fa-tachometer-alt"></i> 563 HP</span>
+                        <span><i class="fas fa-bolt"></i> 0-60: 4.8s</span>
+                    </div>
+                </div>
+            </div>
+            <div class="car-card">
+                <div class="car-image">
+                    <img src="assets/images/cars/mclaren-720s.jpg" alt="McLaren 720S">
+                    <div class="car-overlay">
+                        <a href="book-now.html?car=mclaren-720s" class="book-btn">Book Now</a>
+                    </div>
+                </div>
+                <div class="car-details">
+                    <h3>McLaren 720S</h3>
+                    <p class="car-price">$1,899<span>/day</span></p>
+                    <div class="car-specs">
+                        <span><i class="fas fa-tachometer-alt"></i> 710 HP</span>
+                        <span><i class="fas fa-bolt"></i> 0-60: 2.8s</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="view-all-container">
+            <a href="exotic-cars.html" class="view-all-btn">View All Cars</a>
+        </div>
+    </section>
+
+    <section class="sprinter-vans">
+        <div class="section-header">
+            <h2>Luxury <span class="highlight">Sprinter Vans</span></h2>
+            <p>Travel in style with our premium Mercedes-Benz Sprinter Vans</p>
+        </div>
+        <div class="van-grid">
+            <div class="van-card">
+                <div class="van-image">
+                    <img src="assets/images/vans/sprinter-executive.jpg" alt="Mercedes Sprinter Executive">
+                    <div class="van-overlay">
+                        <a href="book-now.html?van=sprinter-executive" class="book-btn">Book Now</a>
+                    </div>
+                </div>
+                <div class="van-details">
+                    <h3>Mercedes Sprinter Executive</h3>
+                    <p class="van-price">$999<span>/day</span></p>
+                    <div class="van-features">
+                        <span><i class="fas fa-user"></i> 8 Passengers</span>
+                        <span><i class="fas fa-tv"></i> Premium Entertainment</span>
+                    </div>
+                </div>
+            </div>
+            <div class="van-card">
+                <div class="van-image">
+                    <img src="assets/images/vans/sprinter-luxury.jpg" alt="Mercedes Sprinter Luxury">
+                    <div class="van-overlay">
+                        <a href="book-now.html?van=sprinter-luxury" class="book-btn">Book Now</a>
+                    </div>
+                </div>
+                <div class="van-details">
+                    <h3>Mercedes Sprinter Luxury</h3>
+                    <p class="van-price">$1,299<span>/day</span></p>
+                    <div class="van-features">
+                        <span><i class="fas fa-user"></i> 10 Passengers</span>
+                        <span><i class="fas fa-glass-martini-alt"></i> Bar Service</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="view-all-container">
+            <a href="sprinter-vans.html" class="view-all-btn">View All Vans</a>
+        </div>
+    </section>
+
+    <section class="why-choose-us">
+        <div class="section-header">
+            <h2>Why <span class="highlight">Choose Us</span></h2>
+            <p>Experience the difference with Miami's premier exotic car rental service</p>
+        </div>
+        <div class="features-grid">
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-star"></i>
+                </div>
+                <h3>Premium Fleet</h3>
+                <p>Access to the most exclusive and prestigious vehicles in Miami</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-concierge-bell"></i>
+                </div>
+                <h3>Concierge Service</h3>
+                <p>White-glove delivery and pickup at your preferred location</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <h3>Privacy Guaranteed</h3>
+                <p>Discreet service for our high-profile and VIP clients</p>
+            </div>
+            <div class="feature-card">
+                <div class="feature-icon">
+                    <i class="fas fa-clock"></i>
+                </div>
+                <h3>24/7 Support</h3>
+                <p>Round-the-clock assistance for all your needs</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="section-header">
+            <h2>Client <span class="highlight">Testimonials</span></h2>
+            <p>What our customers say about their experience</p>
+        </div>
+        <div class="testimonial-slider">
+            <div class="testimonial-slide">
+                <div class="testimonial-content">
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"The Ferrari 488 was an absolute dream to drive along South Beach. Delivery was on time and the service was impeccable. Will definitely rent again!"</p>
+                    <div class="client-info">
+                        <h4>Michael R.</h4>
+                        <span>New York, NY</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-slide">
+                <div class="testimonial-content">
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Rented the Sprinter van for a bachelor party weekend. The interior was luxurious and the driver was professional. Made our night unforgettable!"</p>
+                    <div class="client-info">
+                        <h4>James T.</h4>
+                        <span>Los Angeles, CA</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-slide">
+                <div class="testimonial-content">
+                    <div class="rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"The McLaren was delivered to my hotel spotless and with a full tank. The entire process was seamless, and the car turned heads everywhere I went!"</p>
+                    <div class="client-info">
+                        <h4>Sophia K.</h4>
+                        <span>Chicago, IL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slider-nav">
+            <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+            <div class="slider-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <section class="instagram-feed">
+        <div class="section-header">
+            <h2>Miami <span class="highlight">Moments</span></h2>
+            <p>Follow us on Instagram <a href="https://www.instagram.com/exoticridesmiami" class="insta-link">@exoticridesmiami</a></p>
+        </div>
+        <div class="instagram-grid">
+            <div class="insta-post">
+                <img src="assets/images/instagram/insta1.jpg" alt="Instagram Post">
+            </div>
+            <div class="insta-post">
+                <img src="assets/images/instagram/insta2.jpg" alt="Instagram Post">
+            </div>
+            <div class="insta-post">
+                <img src="assets/images/instagram/insta3.jpg" alt="Instagram Post">
+            </div>
+            <div class="insta-post">
+                <img src="assets/images/instagram/insta4.jpg" alt="Instagram Post">
+            </div>
+            <div class="insta-post">
+                <img src="assets/images/instagram/insta5.jpg" alt="Instagram Post">
+            </div>
+            <div class="insta-post">
+                <img src="assets/images/instagram/insta6.jpg" alt="Instagram Post">
+            </div>
+        </div>
+    </section>
+
+    <section class="booking-form" id="booking">
+        <div class="section-header">
+            <h2>Book Your <span class="highlight">Ride</span></h2>
+            <p>Reserve your dream car in minutes</p>
+        </div>
+        <div class="booking-container">
+            <form class="booking-steps">
+                <div class="booking-step active" id="step-1">
+                    <h3>Choose Vehicle</h3>
+                    <div class="vehicle-selection">
+                        <div class="vehicle-type">
+                            <input type="radio" id="exotic-car" name="vehicle-type" checked>
+                            <label for="exotic-car">Exotic Car</label>
+                        </div>
+                        <div class="vehicle-type">
+                            <input type="radio" id="sprinter-van" name="vehicle-type">
+                            <label for="sprinter-van">Sprinter Van</label>
+                        </div>
+                    </div>
+                    <div class="vehicle-grid">
+                        <div class="vehicle-option">
+                            <input type="radio" id="car-1" name="vehicle" checked>
+                            <label for="car-1">
+                                <img src="assets/images/cars/ferrari-sf90-thumb.jpg" alt="Ferrari SF90">
+                                <span>Ferrari SF90</span>
+                            </label>
+                        </div>
+                        <div class="vehicle-option">
+                            <input type="radio" id="car-2" name="vehicle">
+                            <label for="car-2">
+                                <img src="assets/images/cars/lamborghini-huracan-thumb.jpg" alt="Lamborghini Huracan">
+                                <span>Lamborghini Huracan</span>
+                            </label>
+                        </div>
+                        <div class="vehicle-option">
+                            <input type="radio" id="car-3" name="vehicle">
+                            <label for="car-3">
+                                <img src="assets/images/cars/rolls-royce-cullinan-thumb.jpg" alt="Rolls-Royce Cullinan">
+                                <span>Rolls-Royce Cullinan</span>
+                            </label>
+                        </div>
+                        <div class="vehicle-option">
+                            <input type="radio" id="car-4" name="vehicle">
+                            <label for="car-4">
+                                <img src="assets/images/cars/mclaren-720s-thumb.jpg" alt="McLaren 720S">
+                                <span>McLaren 720S</span>
+                            </label>
+                        </div>
+                    </div>
+                    <button type="button" class="next-step-btn" data-step="2">Next: Select Dates</button>
+                </div>
+                
+                <div class="booking-step" id="step-2">
+                    <h3>Select Dates</h3>
+                    <div class="date-inputs">
+                        <div class="form-group">
+                            <label for="pickup-date">Pickup Date</label>
+                            <input type="date" id="pickup-date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="pickup-time">Pickup Time</label>
+                            <input type="time" id="pickup-time" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="return-date">Return Date</label>
+                            <input type="date" id="return-date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="return-time">Return Time</label>
+                            <input type="time" id="return-time" required>
+                        </div>
+                    </div>
+                    <div class="step-buttons">
+                        <button type="button" class="prev-step-btn" data-step="1">Previous</button>
+                        <button type="button" class="next-step-btn" data-step="3">Next: Enter Information</button>
+                    </div>
+                </div>
+                
+                <div class="booking-step" id="step-3">
+                    <h3>Enter Information</h3>
+                    <div class="form-group">
+                        <label for="full-name">Full Name</label>
+                        <input type="text" id="full-name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Delivery Address</label>
+                        <input type="text" id="address" required>
+                    </div>
+                    <div class="step-buttons">
+                        <button type="button" class="prev-step-btn" data-step="2">Previous</button>
+                        <button type="button" class="next-step-btn" data-step="4">Next: Payment Details</button>
+                    </div>
+                </div>
+                
+                <div class="booking-step" id="step-4">
+                    <h3>Payment Details</h3>
+                    <div class="form-group">
+                        <label for="card-holder">Card Holder Name</label>
+                        <input type="text" id="card-holder" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="card-number">Card Number</label>
+                        <input type="text" id="card-number" placeholder="XXXX XXXX XXXX XXXX" required>
+                    </div>
+                    <div class="card-details">
+                        <div class="form-group expiry">
+                            <label for="expiry">Expiry Date</label>
+                            <input type="text" id="expiry" placeholder="MM/YY" required>
+                        </div>
+                        <div class="form-group cvv">
+                            <label for="cvv">CVV</label>
+                            <input type="text" id="cvv" placeholder="XXX" required>
+                        </div>
+                    </div>
+                    <div class="booking-summary">
+                        <h4>Booking Summary</h4>
+                        <p><span>Vehicle:</span> <span id="summary-vehicle">Ferrari SF90</span></p>
+                        <p><span>Pickup:</span> <span id="summary-pickup">Date & Time</span></p>
+                        <p><span>Return:</span> <span id="summary-return">Date & Time</span></p>
+                        <p><span>Total:</span> <span id="summary-total">$0.00</span></p>
+                    </div>
+                    <div class="step-buttons">
+                        <button type="button" class="prev-step-btn" data-step="3">Previous</button>
+                        <button type="submit" class="submit-booking-btn">Complete Booking</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="assets/images/logo-white.png" alt="Exotic Rides Miami Logo">
+                <p>Experience the ultimate luxury car rentals in Miami</p>
+            </div>
+            <div class="footer-links">
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="exotic-cars.html">Exotic Cars</a></li>
+                        <li><a href="sprinter-vans.html">Sprinter Vans</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Collins Ave, Miami Beach, FL 33139</li>
+                        <li><i class="fas fa-phone"></i> +1 (305) 555-1234</li>
+                        <li><i class="fas fa-envelope"></i> info@exoticridesmiami.com</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Exotic Rides Miami. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html> 
